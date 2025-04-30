@@ -65,6 +65,7 @@ Untuk mengunduhnya ke komputer lokal Anda atau menyimpannya secara permanen, dis
 2.  **Mengunduh Langsung ke Komputer (via Zip):** Untuk folder, Anda perlu mengompresnya terlebih dahulu menjadi file `.zip` menggunakan perintah `!zip` atau fungsi `shutil.make_archive` di Python, lalu menggunakan `google.colab.files.download()` pada file zip tersebut. (Contoh kode untuk ini juga ada di diskusi sebelumnya). Menggunakan File Browser di sidebar Colab dan klik kanan -> Download juga akan mengompres folder menjadi zip.
 
 ## Struktur Proyek
+```bash
 ├── cat_dog_kaggle_data/        # Dataset yang diunduh dan diekstrak
 │   ├── training_set/
 │   └── test_set/
@@ -75,3 +76,4 @@ Untuk mengunduhnya ke komputer lokal Anda atau menyimpannya secara permanen, dis
 ├── tflite_model/               # TF-Lite format (model.tflite)
 ├── tfjs_model/                 # TFJS format (model.json, shard files)
 └── notebook.ipynb              # File notebook Colab Anda
+```
