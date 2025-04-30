@@ -1,0 +1,7 @@
+tensorflow
+tensorflowjs
+numpy
+matplotlib
+kaggle
+requests
+Pillow
