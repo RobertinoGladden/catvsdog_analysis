@@ -71,9 +71,18 @@ Untuk mengunduhnya ke komputer lokal Anda atau menyimpannya secara permanen, dis
 │   └── test_set/
 │       ├── cats/
 │       └── dogs/
+├── cat_dog_split_data/         # Dataset yang diubah menjadi 3 bagian
+│   ├── test/
+│   ├── train/
+│   └── validation/
+│       ├── cats/
+│       └── dogs/
 ├── catdog_kaggle_checkpoints/  # Checkpoint model terbaik selama pelatihan
+│   └── best_model_head.keras
 ├── saved_model/                # SavedModel format
-├── tflite_model/               # TF-Lite format (model.tflite)
 ├── tfjs_model/                 # TFJS format (model.json, shard files)
-└── notebook.ipynb              # File notebook Colab Anda
+├── tflite_model/               # TF-Lite format (model.tflite)
+├── notebook.ipynb              # File notebook Colab Anda
+├── readme.md                   # Dokumentasi
+└── requirements.txt            # List dokumentasi library system
 ```
